@@ -1,0 +1,36 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	
+}
+.height{
+	/*height: 1000px;*/
+	min-height: 100vh;
+}
+.title-underline{
+	width: 200px ;
+	height: 5px ;
+	margin: 0 auto;
+	/*background-color: blue!important;*/
+}
+.height-80{
+	/*height: 1000px;*/
+	min-height: 80vh;
+}
+.row{
+    margin: 0%;
+}
+.about-picture{
+	/*Parallax effect*/
+	background-image: url('../img/computers.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#bootstrapSite, #progress{
+	background-image: url('../img/abstract_0050.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
